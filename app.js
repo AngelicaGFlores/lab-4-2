@@ -22,6 +22,10 @@ function removeLastItem() {
 // console.log(shoppingList.pop())
 console.log(shoppingList);
 
+function displayList() {
+	console.log(shoppingList);
+}
+
 function filterItems(searchTerm) {
 	//terrible way to do this
 	// return a new aaray that has the searchTerm
